@@ -1,0 +1,66 @@
+body {
+    background-color: lightslategray;
+
+}
+
+nav {
+    float:right;
+    line-height: 15px;
+}
+
+header {
+    background-color:white;
+    width: 100%;
+    overflow: auto;
+}
+
+a {
+    padding: 10px;
+    text-decoration:none;
+}
+
+h1 {
+    float:left;
+    text-align: center;
+    color: white;
+    background-color: #284853;
+    padding:15px;
+}
+
+#inside-header {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+h2 {
+    text-align: left;
+    clear:both;
+    color:#284853;
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+    clear: both;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+}
+
+#container {
+    width: 960px;
+    height: auto;
+    padding: 15px;
+    border: solid 1px lightgray;
+    margin: 0 auto;
+
+}
