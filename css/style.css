@@ -6,6 +6,7 @@
 body {
     background-color:slategray;
     background-image: url("../assets/images/beanstalk.png");
+
 }
 
 nav {
@@ -41,7 +42,7 @@ h1 {
 }
 
 #inside-header {
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
