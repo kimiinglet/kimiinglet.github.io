@@ -21,7 +21,8 @@ header {
     width: 100%;
     overflow: auto;
     top: 0;
-    box-shadow: 0px 2px;
+    box-shadow: 0px 2px #cccccc;
+    /*margin-bottom: 16px;*/
 }
 
 a {
@@ -59,7 +60,7 @@ footer {
     background-color: #666666;
     position: fixed;
     bottom: 0;
-    color: black;
+    color: white;
     border-top: 8px solid #4aaaa5
 }
 
@@ -71,7 +72,7 @@ p {
 #container {
     width: 960px;
     height: auto;
-    padding: 15px;
+    padding: 20px;
     border: solid 1px lightgray;
     margin: 0 auto;
     background: #ffffff;
@@ -83,3 +84,45 @@ p {
     width:120px;
     padding: 15px;
 }
+
+.box {
+    height:100px;
+    width: 100px;
+    background-color:rgb(71, 119, 167);
+}
+
+/*Contact box*/
+
+#full {
+    width: 960px;
+    height: auto;
+    padding: 20px;
+    border: solid 1px lightgray;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+form {
+    clear:both;
+}
+
+input {
+    padding: 7px;
+    margin: 0px;
+    width: 800px;
+    height: auto;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 9px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    width: 100px;
+}
+
