@@ -143,9 +143,33 @@ input[type=submit] {
     width: 100px;
 }
 
-.bottom-left {
+/*.bottom-left {
     bottom: 8px;
     left: 16px;
     z-index:2;
-  }
+  }*/
+
+ .work {
+     position: relative;
+     height: 150px;
+     width: 150px;
+     margin: 0 auto;
+
+ }
+
+ img {
+     height: 100%;
+     width: 100%;
+
+ }
+
+ h3 {
+     width: 100%;
+     bottom: 0;
+     font-size: 24px;
+     background-color: #4aaaa5;
+     text-align: center;
+     position: absolute;
+
+ }
 
