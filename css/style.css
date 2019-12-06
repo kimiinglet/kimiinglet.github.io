@@ -143,4 +143,9 @@ input[type=submit] {
     width: 100px;
 }
 
+.bottom-left {
+    bottom: 8px;
+    left: 16px;
+    z-index:2;
+  }
 
